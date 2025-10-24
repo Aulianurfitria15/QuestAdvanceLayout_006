@@ -64,7 +64,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     painter = gambar,
                     contentDescription = null,
                     modifier = Modifier
-                        .size(size = 100.dp)
+                        .size(size = 80.dp)
                         .padding(all = 5.dp)
                 )
 
