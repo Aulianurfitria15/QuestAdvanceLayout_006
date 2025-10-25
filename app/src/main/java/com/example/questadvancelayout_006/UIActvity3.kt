@@ -318,3 +318,14 @@ fun UIKetiga(modifier: Modifier) {
                 )
             }
 
+            Spacer(modifier = Modifier.height(16.dp))
+            // 7. copyright
+            Text(
+                text = stringResource(R.string.copy),
+                color = colorResource(R.color.black),
+                fontSize = 14.sp,
+                modifier = Modifier.fillMaxWidth(),
+                textAlign = TextAlign.Center
+            )
+        }
+    }
