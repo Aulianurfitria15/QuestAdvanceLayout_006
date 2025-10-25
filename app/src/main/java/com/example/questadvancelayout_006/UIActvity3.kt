@@ -56,3 +56,17 @@ fun UIKetiga(modifier: Modifier) {
                 .clip(CircleShape),
             contentScale = ContentScale.Crop
         )
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            val iconSpacing = 14.dp
+            val iconSize = 50.dp
+
+            val sosmedIcons = listOf(
+                R.drawable.spoti,
+                R.drawable.tt,
+                R.drawable.ig
+            )
+
