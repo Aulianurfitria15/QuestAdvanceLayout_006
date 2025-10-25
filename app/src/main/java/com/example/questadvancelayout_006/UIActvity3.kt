@@ -84,3 +84,31 @@ fun UIKetiga(modifier: Modifier) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
+        Text(
+            text = stringResource(R.string.nama),
+            color = Color(0xFF4A164B),
+            fontSize = 26.sp,
+            fontFamily = FontFamily.Cursive,
+            fontWeight = FontWeight.Bold
+        )
+
+        Text(
+            text = stringResource(R.string.ig),
+            color = Color(0xFF4A164B),
+            fontSize = 15.sp,
+            fontFamily = FontFamily.SansSerif,
+            fontWeight = FontWeight.Medium
+        )
+
+        Text(
+            text = stringResource(R.string.univ),
+            color = Color(0xFF4A164B),
+            fontSize = 18.sp,
+            fontFamily = FontFamily.SansSerif,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .padding(horizontal = 16.dp)
+                .fillMaxWidth()
+        )
+
