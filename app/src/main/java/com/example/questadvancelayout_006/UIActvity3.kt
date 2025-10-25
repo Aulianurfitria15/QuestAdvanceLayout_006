@@ -70,3 +70,15 @@ fun UIKetiga(modifier: Modifier) {
                 R.drawable.ig
             )
 
+            sosmedIcons.forEachIndexed { index, icon ->
+                Image(
+                    painter = painterResource(icon),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(iconSize)
+                        .clip(CircleShape)
+                )
+                if (index != sosmedIcons.lastIndex) Spacer(modifier = Modifier.width(iconSpacing))
+            }
+        }
+
