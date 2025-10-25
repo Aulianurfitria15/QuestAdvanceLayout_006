@@ -170,3 +170,15 @@ fun UIKetiga(modifier: Modifier) {
 
             Spacer(modifier = Modifier.height(12.dp))
 
+// 2. Hobi
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(60.dp)
+                    .shadow(4.dp, CircleShape)
+                    .background(
+                        color = Color(0xFFFF8AAE),
+                        shape = CircleShape
+            )
+                    .padding(horizontal = 16.dp),
+                verticalAlignment = Alignment.CenterVertically
