@@ -46,3 +46,13 @@ fun UIKetiga(modifier: Modifier) {
             .background(colorResource(R.color.hijau))
             .padding(all = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        val gambar = painterResource(R.drawable.aul)
+        Image(
+            painter = gambar,
+            contentDescription = null,
+            modifier = modifier
+                .size(110.dp)
+                .clip(CircleShape),
+            contentScale = ContentScale.Crop
+        )
